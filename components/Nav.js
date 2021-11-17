@@ -4,11 +4,11 @@ import navStyles from '../styles/Nav.module.css'
 const Nav = () => {
     return (
         <nav className={navStyles.nav}>
-            <ul>
-                <li>
+            <ul className={navStyles.nav1}>
+                <li className={navStyles.nav2}>
                     <Link href="/">Home</Link>
                 </li>
-                <li>
+                <li className={navStyles.nav2}>
                     <Link href="/about">About</Link>
                 </li>
             </ul>
